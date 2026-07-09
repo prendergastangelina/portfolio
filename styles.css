@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #222;
+}
+
+.hero {
+    min-height: 100vh;
+    padding: 30px 8%;
+    background: linear-gradient(135deg, #111827, #374151);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.4rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.hero-content {
+    margin-top: 160px;
+    max-width: 700px;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-content h3 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    color: #d1d5db;
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 12px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.primary {
+    background-color: white;
+    color: #111827;
+}
+
+.secondary {
+    border: 2px solid white;
+    color: white;
+}
+
+section {
+    padding: 70px 8%;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 15px;
+}
+
+.skill-grid div, .project-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.project-card {
+    margin-bottom: 20px;
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+}
+
+.project-card span {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #374151;
+}
+
+a {
+    color: #2563eb;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #111827;
+    color: white;
+}
