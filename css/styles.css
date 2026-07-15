@@ -345,3 +345,8 @@ footer {
     color: white;
     text-align: center;
 }
+
+#about p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
