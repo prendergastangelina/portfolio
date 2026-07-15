@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+    <title>
+        Resume | Angelina Prendergast
+    </title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #e5e7eb;
+            font-family: Arial, sans-serif;
+        }
+
+        .resume-toolbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 5%;
+            background-color: #111827;
+        }
+
+            .resume-toolbar a {
+                color: white;
+                text-decoration: none;
+                font-weight: 600;
+            }
+
+        .download-link {
+            padding: 10px 16px;
+            border: 1px solid white;
+            border-radius: 8px;
+        }
+
+        .resume-viewer {
+            width: 100%;
+            height: calc(100vh - 76px);
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="resume-toolbar">
+        <a href="index.html#resume">
+            ← Back to Portfolio
+        </a>
+
+        <a href="angelina-prendergast-resume.pdf" class="download-link" download>
+            Download PDF
+        </a>
+    </div>
+
+    <iframe src="angelina-prendergast-resume.pdf"
+            class="resume-viewer"
+            title="Angelina Prendergast Resume">
+    </iframe>
+</body>
+</html>

@@ -350,3 +350,14 @@ footer {
     margin-bottom: 20px;
     line-height: 1.8;
 }
+
+.resume-intro {
+    margin-bottom: 22px;
+    line-height: 1.8;
+}
+
+.resume-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
