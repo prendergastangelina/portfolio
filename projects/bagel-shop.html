@@ -22,6 +22,19 @@
                     An ASP.NET Web Forms application that processes customized customer
                     orders and produces a calculated receipt.
                 </p>
+
+                <div class="project-actions">
+                    <a href="live-app-link" class="project-action-btn primary-action"
+                       target="_blank">
+                        View Live Application
+                    </a>
+
+                    <a href="github-repository-link"
+                       class="project-action-btn secondary-action"
+                       target="_blank">
+                        View Source Code
+                    </a>
+                </div>
             </div>
         </section>
 
@@ -29,9 +42,12 @@
             <section class="project-section">
                 <h2>Project Overview</h2>
                 <p>
-                    I developed a point-of-sale system that allows a customer to enter
-                    their information, select bagels and add-ons, choose dine-in or
-                    takeout, and receive an itemized receipt.
+                    This project is an ASP.NET Web Forms point-of-sale application that simulates
+                    the ordering process for a bagel shop. Users can enter customer information, customize
+                    their order by selecting bagel types and add-ons, choose dine-in or takeout, and receive
+                    an automatically generated receipt with calculated subtotals, tax, and totals. The application
+                    was designed to strengthen my understanding of C# programming while creating an interactive,
+                    user-friendly ordering experience.
                 </p>
             </section>
 
@@ -49,25 +65,131 @@
             <section class="project-section">
                 <h2>Key Features</h2>
                 <p>
-                    Features include user input validation, conditional pricing,
-                    add-on selections, tax calculations, panel navigation, and receipt
-                    generation.
+                    The application includes multiple interactive panels that guide users through
+                    the ordering process, custom methods that organize the application's functionality, 
+                    and dynamic calculations based on the customer's selections. Features include customizable
+                    bagel options and add-ons, automatic tax and total calculations, user input validation, order
+                    summaries, receipt generation, and the ability to reset the application for the next customer. 
+                    Throughout the project, I focused on creating code that was modular, reusable, and easy to maintain. 
                 </p>
             </section>
 
             <section class="project-section">
                 <h2>What I Learned</h2>
                 <p>
-                    This project strengthened my understanding of event-driven
-                    programming, custom methods, return values, input validation,
-                    calculations, and ASP.NET server controls.
+                    This project significantly strengthened my understanding of object-oriented and
+                    event-driven programming in C#. I gained experience creating reusable custom methods,
+                    passing parameters, returning values, working with loops and conditional statements, and
+                    separating business logic from the user interface. I also became more comfortable using ASP.NET
+                    Web Forms controls to build interactive applications and learned the importance of organizing
+                    code into smaller, reusable methods that improve readability, simplify debugging, and make future 
+                    updates easier. 
                 </p>
             </section>
 
             <section class="project-section">
-                <h2>Project Images</h2>
-                <div class="project-placeholder">
-                    Application screenshots will be added here.
+                <h2>Application Gallery</h2>
+
+                <p class="gallery-intro">
+                    These screenshots show the main stages of the ordering process, from
+                    entering customer information to customizing the order and generating
+                    the final receipt.
+                </p>
+
+                <div class="project-gallery">
+                    <figure class="gallery-item">
+                        <img />
+                        <figcaption>
+                            <h3>
+                                Customer Information
+                            </h3>
+                            <p>
+                                The first screen collects the customer's name, number of bagels,
+                                and order type before moving to the customization stage.
+                            </p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="gallery-item">
+                        <img />
+                        <figcaption>
+                            <h3>
+                                Order Customization
+                            </h3>
+                            <p>
+                                Customers can select a bagel type, choose additional options,
+                                and specify a payment method before completing the order.
+                            </p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="gallery-item gallery-item-large">
+                        <img />
+                        <figcaption>
+                            <h3>
+                                Generated Receipt
+                            </h3>
+
+                            <p>
+                                The final screen displays an itemized order summary with the 
+                                customer's selections, subtotal, tax, price per bagel, and total.
+                            </p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="project-section">
+                <h2>
+                    Code Highlights
+                </h2>
+
+                <p class="gallery-intro">
+                    The application uses custom C# methods to organize calculations, process
+                    user selections, generate receipts, and manage the flow between screens.
+                </p>
+
+                <div class="code-gallery">
+                    <figure class="code-item">
+                        <img />
+                        <figcaption>
+                            <h3>
+                                Receipt Generation
+                            </h3>
+                            <p>
+                                The GenerateReceipt method combines customer information, order
+                                selections, payment details, and calculated totals into a formatted
+                                receipt.
+                            </p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="code-item">
+                        <img />
+                        <figcaption>
+                            <h3>
+                                Add-On Processing
+                            </h3>
+                            <p>
+                                A loop checks each available option, records selected items, and calculates
+                                their combined cost using a running total.
+                            </p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="code-item">
+                        <img />
+                        <figcaption>
+                            <h3>
+                                Order Calculations
+                            </h3>
+
+                            <p>
+                                Seperate methods calculate the selected bagel price, add-on cost,
+                                subtotal, tax, and final order total.
+                            </p>
+                        </figcaption>
+                    </figure>
                 </div>
             </section>
         </div>
